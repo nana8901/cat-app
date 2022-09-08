@@ -10,3 +10,4 @@ cat.save
 cat = Cat.new(name: "Freya", breed: "Calico", age: 5, image_url: "floofy")
 cat.save
 cat = Cat.new(name: "Nebular", breed: "American Shorthair", age: 6, image_url: "puffball")
+cat.save
