@@ -1,7 +1,7 @@
 <h1>Here is some html on the cats index page</h1>
 
 <% @cats.each do |cat| %>
-  <p>name: <%= cat.name%> </p>
+    <p>name: <a href="/cats/<%= cat.id %>"><%= cat.name %></a></p>
   <p>image url: <%= cat.image_url%> </p>
 
 <% end %>
