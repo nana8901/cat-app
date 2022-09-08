@@ -33,6 +33,6 @@ class CatsController < ApplicationController
     cat.age = params[:age]
     cat.save
 
-    redirect_to "cats"
+    redirect_to "/cats"
   end
 end
